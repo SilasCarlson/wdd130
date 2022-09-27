@@ -18,6 +18,7 @@ h2 {
 #background {
     height: 725px;
     background-color: #6687D4;
+    margin-bottom: 100px;
 }
 
 nav a {
@@ -75,6 +76,7 @@ nav a:hover {
     background-color: #FF6B35;
     line-height: 1.5em;
     padding: 35px;
+    margin-top: 200px;
 }
 
 .msg h2 {
