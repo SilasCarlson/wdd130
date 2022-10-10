@@ -234,6 +234,7 @@ h4 {
 
 .faq-grid img {
     border-radius: 10px 10px 0px 0px;
+    width: 100%;
 }
 
 .faq-grid section {
