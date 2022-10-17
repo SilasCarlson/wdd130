@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Varela');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    background-color: #FFFD82;
+    font-family: "Varela"; /* Default font family */
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Permanent Marker";
+    color: #CB904D;
+}
+
+p {
+    font-family: "Varela";
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #1a1423;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header > nav > a {
+    padding: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: #E4DEE4;
+    font-family: "Varela";
+    align-self: center;
+    border-radius: 5px;
+}
+
+header > nav > a:hover {
+    background-color: #CB904D;
+    transition: background-color .5s;
+}
+
+#logo_link > img {
+    height: 80px;
+    width: 80px;
+    border-radius: 15px;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+}
+
+.hero {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.hero > #box {
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+.hero > #box > img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero > #message {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: rgb(26, 20, 35, 0.75);
+    color: #E4DEE4;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero > #message > #content {
+    padding: 10px;
+    text-align: center;
+}
+
+.hero > #message > #content > h1 {
+    font-size: 2em;
+}
+
+#home_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px auto;
+    grid-gap: 0px 100px;
+    margin: 50px;
+}
+
+#home_grid p {
+    line-height: 2em;
+}
+
+#home_grid > img:first-of-type {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform .5s;
+}
+
+#home_grid > img:first-of-type:hover {
+    transform: scale(1.1);
+    
+}
+
+#home_grid > section {
+    border: 5px solid #CB904D;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#home_grid > #right_section {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 60% auto;
+    color: #E4DEE4;
+    background-color: #1A1423;
+    padding: 25px;
+}
+
+footer > #links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+footer > #links > p > a {
+    text-decoration: none;
+    color: #E4DEE4;
+}
+
+footer > #links > p > a:hover {
+    color: white;
+}
