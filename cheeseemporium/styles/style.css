@@ -90,6 +90,9 @@ header > nav > a:hover {
     font-size: 2em;
 }
 
+/*
+    Home Grid
+*/
 #home_grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -98,7 +101,7 @@ header > nav > a:hover {
     margin: 50px;
 }
 
-#home_grid p {
+#home_grid p, #howitsmade_grid p {
     line-height: 2em;
 }
 
@@ -113,7 +116,7 @@ header > nav > a:hover {
     
 }
 
-#home_grid > section {
+#home_grid > section, #howitsmade_grid > section {
     border: 5px solid #CB904D;
     padding: 25px;
     border-radius: 5px;
@@ -145,4 +148,22 @@ footer > #links > p > a {
 
 footer > #links > p > a:hover {
     color: white;
+}
+
+/*
+    How it's made grid
+*/
+#howitsmade_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px 100px;
+    margin: 50px;
+}
+
+#howitsmade_grid > #image {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-image: url("../images/howitsmade2.jpg");
+    background-position: center;
+    border-radius: 5px;
 }
