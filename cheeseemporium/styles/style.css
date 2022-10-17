@@ -167,3 +167,30 @@ footer > #links > p > a:hover {
     background-position: center;
     border-radius: 5px;
 }
+
+/*
+    History grid
+*/
+#history_grid {
+    display: grid;
+    grid-template-columns: 500px auto auto;
+    grid-template-rows: 100px auto 100px;
+    margin: 50px;
+}
+
+#history_grid > img:first-of-type {
+    width: 80%;
+    height: 100%;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    border-radius: 5px;
+}
+
+#history_grid > section {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    background-color: rgba(26, 20, 35, 0.75);
+    color: #E4DEE4;
+    padding: 20px;
+    border-radius: 5px;
+}
